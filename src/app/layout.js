@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Psicologa",
-  description: "Psicologa",
+  title: "Lenir Mendes Rodrigues | Psicóloga",
+  description: "Lenir Mendes Rodrigues | Psicóloga",
 };
 
 export default function RootLayout({ children }) {
