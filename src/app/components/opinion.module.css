@@ -1,0 +1,56 @@
+.opinionMain h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.opinionMain {
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.opinionMain p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 1rem;
+  border-left: 4px solid #e0f2f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.stars {
+  color: #f5c518;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}

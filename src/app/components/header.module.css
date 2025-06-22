@@ -1,0 +1,148 @@
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #e0f2f3;
+}
+
+.mainHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 3rem;
+  flex-wrap: wrap;
+}
+
+.logoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.typed {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333;
+  width: 0;
+  animation: typing 3s steps(28, end) forwards, blink 0.7s step-end infinite;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.crm {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #457b9d;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp:hover {
+  background-color: #1ebe57;
+}
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+/* Estilo padrão do nav para desktop */
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.mobileOpen {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .menuToggle {
+    display: block;
+    z-index: 1001;
+  }
+   .wave {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #e0f2f3;
+    padding: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .whatsapp {
+    display: none; 
+  }
+
+  .mainHome {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  height: 370px;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background: url("data:image/svg+xml;utf8,\
+ <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>\
+<path fill='%23e0f2f3' fill-opacity='1' d='M0,240L60,245.3C120,251,240,261,360,261.3C480,261,600,251,720,224C840,197,960,157,1080,151.3C1200,146,1320,178,1380,194L1440,210L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z' />\
+</svg>") no-repeat bottom;
+}

@@ -1,0 +1,43 @@
+.specialtyMain {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.specialtyMain h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.specialtyMain p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.specialtyList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.specialtyList li {
+  background-color: #e0f2f3;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+}
+
+.specialtyCard {
+  background-color: #e0f2f3;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  text-align: center;
+}

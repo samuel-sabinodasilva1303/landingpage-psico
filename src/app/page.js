@@ -3,6 +3,11 @@ import Opinion from "./components/opinion";
 import Specialty from "./components/specialty";
 import Contact from "./components/contact";
 import Header from "./components/header";
+import Biography from "./components/biography";
+import FloatingWhatsapp from "./components/FloatingWhatsapp";
+import ScrollToTop from "./components/ScrollToTop";
+import WhyTherapy from "./components/WhyTherapy";
+import Faq from "./components/Faq";
 
 export default function Home() {
   return (
@@ -14,6 +19,14 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
+      
+      <section id="why-therapy">
+        <WhyTherapy />
+      </section>
+      
+      <section id="biografy">
+        <Biography />
+      </section>
 
       <section id="opinion">
         <Opinion />
@@ -23,12 +36,19 @@ export default function Home() {
         <Specialty />
       </section>
 
+      <section id="faq">
+        <Faq />
+      </section>
+
       <section id="contact">
         <Contact />
       </section>
+      
+      <ScrollToTop />
+      <FloatingWhatsapp />
 
       <footer>
-        <p>&copy; 2025 -Psicóloga</p>
+        <p>&copy; 2025 - Lenir Mendes Rodrigues</p>
       </footer>
     </main>
   );

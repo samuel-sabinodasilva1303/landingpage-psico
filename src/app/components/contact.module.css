@@ -1,0 +1,59 @@
+.contactMain {
+  padding: 2rem;
+  background-color: #fefefe;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.contactMain h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.contactMain p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whatsappBtn {
+  background-color: #25d366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.whatsappBtn:hover {
+  background-color: #1ebe57;
+}
+
+.alt {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+ 
+.emailLink {
+  color: #457b9d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.emailLink:hover {
+  text-decoration: underline;
+}
