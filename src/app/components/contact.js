@@ -12,7 +12,7 @@ export default function Contact() {
 
       <div className={styles.contactBox}>
         <a
-          href="https://wa.me/55SEUNUMERO"
+          href="https://wa.me/5514998017267"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.whatsappBtn}
@@ -21,19 +21,19 @@ export default function Contact() {
         </a>
 
         <p className={styles.alt}>Ou por telefone:</p>
-        <p className={styles.phone}><FaPhoneAlt /> (xx) xxxx-xxxx</p>
+        <p className={styles.phone}><FaPhoneAlt /> (14) 99801-7267</p>
 
         <p className={styles.alt}>Ou envie um e-mail para:</p>
-        <a href="mailto:seuemail@exemplo.com" className={styles.emailLink}>
-          <FaEnvelope /> seuemail@exemplo.com
+        <a href="mailto:lenirmendesrodriguesl@gmail.com" className={styles.emailLink}>
+          <FaEnvelope /> lenirmendesrodriguesl@gmail.com
         </a>
 
         <p className={styles.alt}>Atendimento presencial:</p>
         <p className={styles.address}>
-          <FaMapMarkerAlt /> Rua Exemplo, 123 - Bairro - Cidade/UF
+          <FaMapMarkerAlt /> Rua Washington Luiz, 366 - Centro - Oriente/SP
         </p>
         <a
-          href="https://goo.gl/maps/..."
+          href="https://maps.app.goo.gl/45XiLBKrKtAhnSWf7"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.mapLink}

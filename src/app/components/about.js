@@ -14,10 +14,10 @@ export default function About() {
 
       <div className={styles.aboutImagePerfil}>
         <Image
-          src="/images.jpeg"
+          src="/logoprincipal.jpeg"
           alt="Foto de perfil"
-          width={250}
-          height={250}
+          width={400}
+          height={400}
           className={styles.profileImg}
         />
       </div>

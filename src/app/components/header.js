@@ -26,7 +26,7 @@ export default function Header() {
         <div className={styles.mainHome}>
           <div className={styles.logoBox}>
             {showTyping && <a href="#home"><h1 className={styles.typed}>Lenir Mendes Rodrigues</h1></a>}
-            <p className={styles.crm}>CRP 00/00000</p>
+            <p className={styles.crm}>CRP 06/191235</p>
           </div>
 
           {/* Ícone do menu no mobile */}
@@ -44,7 +44,7 @@ export default function Header() {
           </nav>
 
           <a
-            href="https://wa.me/55SEUNUMERO"
+            href="https://wa.me/5514998017267"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.whatsapp}

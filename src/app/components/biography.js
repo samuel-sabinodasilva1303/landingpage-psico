@@ -7,9 +7,9 @@ export default function Biography() {
       <div className={styles.content}>
         <div className={styles.photo}>
           <Image
-            src="/perfil-lenir.jpg"
+            src="/logomaior.jpeg"
             alt="Psicóloga Lenir Mendes Rodrigues"
-            width={300}
+            width={280}
             height={400}
             className={styles.image}
           />
@@ -18,7 +18,7 @@ export default function Biography() {
         <div className={styles.text}>
           <h2>Sobre mim</h2>
           <p>
-            Olá, sou <strong>Lenir Mendes Rodrigues</strong>, psicóloga formada pela Universidade XYZ, com especialização em Psicoterapia Cognitivo-Comportamental. Atuo há mais de 8 anos no acolhimento de crianças, adolescentes e adultos, tanto presencialmente quanto online.
+            Olá, sou <strong>Lenir Mendes Rodrigues</strong>, psicóloga formada pela Universidade Católica Paulista, com especialização em Psicoterapia Cognitivo-Comportamental. Atuo há mais de 8 anos no acolhimento de crianças, adolescentes e adultos, tanto presencialmente quanto online.
           </p>
           <p>
             Acredito que cada pessoa carrega sua história e que a escuta atenta pode transformar dores em caminhos de crescimento. Estou aqui para te apoiar em processos de autoconhecimento, superação de crises e fortalecimento emocional.
