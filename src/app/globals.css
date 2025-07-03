@@ -27,6 +27,18 @@ footer {
   text-align: center;
   padding: 1rem;
   background: #e0f2f3;
+  display: flex; 
+  justify-content: center; 
+  gap: 1rem; 
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer span a{
+    text-decoration: none;
+    color: darkblue;
+}
+footer span a:hover{
+  opacity: 0.5;
 }
 
 #home, #why-therapy, #opinion, #faq{

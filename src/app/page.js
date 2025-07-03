@@ -8,6 +8,8 @@ import FloatingWhatsapp from "./components/FloatingWhatsapp";
 import ScrollToTop from "./components/ScrollToTop";
 import WhyTherapy from "./components/WhyTherapy";
 import Faq from "./components/Faq";
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -49,6 +51,12 @@ export default function Home() {
 
       <footer>
         <p>&copy; 2025 - Lenir Mendes Rodrigues</p>
+           <span>
+            Desenvolvido por{' '}
+            <Link href="https://wiseline.com.br/" target="_blank" rel="noopener noreferrer">
+              Wiseline
+            </Link>
+          </span>
       </footer>
     </main>
   );
